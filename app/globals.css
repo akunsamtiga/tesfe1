@@ -1,9 +1,6 @@
+/* app/globals.css */
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
 
 @theme inline {
   --color-background: var(--background);
@@ -19,8 +16,141 @@
   }
 }
 
+/* Variabel warna untuk mode LIGHT dengan kesan elegan */
+:root {
+  --color-primary: #2A4365;
+  --color-background: #FFFFFF; /* Latar belakang yang lembut */
+  --color-text: #000000; /* Teks utama yang gelap */
+  --color-text2: #4B5563; /* Teks kedua yang lebih terang */
+  --color-navbar: #2A4365;
+  --color-navbar-title: #FFFFFF;
+  --color-navbar-text: #FFFFFF;
+  --color-navbar-button: #FFFFFF;
+  --color-home: #2A4365;
+  --color-home-title: #FFFFFF;
+  --color-home-text: #cbcbcb;
+  --color-home-button: #6082B6;
+  --color-category: #2A4365;
+  --color-category-title: #FFFFFF;
+  --color-category-card: #FFFFFF;
+  --color-product: #FFFFFF;
+  --color-product-title: #1F2937;
+  --color-product-rupiah: #468FEA;
+  --color-product-stock: #9ca3af;
+  --color-product-button: #007BA7;
+  --color-product-card: #72A0C110;
+  --color-brand: #FFFFFF;
+  --color-brand-start: #c51e3a; /* Warna awal gradient */
+  --color-brand-middle: #c51e3a;
+  --color-brand-end: #881729;
+  --color-brand-button1: #FFFFFF;
+  --color-brand-button2: #e43048;
+  --color-brand-card: #FFFFFF;
+  --color-brand-text: #FFFFFF;
+  --color-brand-text2: #881729;
+  --color-artikel: #FFFFFF;
+  --color-artikel-card: #e1e9ff;
+  --color-artikel-title: #1F2937;
+  --color-artikel-text: #4f5359;
+  --color-artikel-next: #2d4ea8;
+  --color-artikel-button: #323e5b;
+  --color-banner: #6082B6;
+  --color-banner-title: #F9FAFB;
+  --color-banner-text1: #e6e6e6;
+  --color-banner-text2: #d3d3d3;
+  --color-banner-button: #72A0C1;
+  --color-testimoni: #ffffff;
+  --color-testimoni-title: #1F2937;
+  --color-testimoni-text: #4B5563;
+  --color-testimoni-review: #1F2937;
+  --color-testimoni-review-title: #FFFFFF;
+  --color-testimoni-review-text1: #9ca3af;
+  --color-testimoni-review-text2: #d1d5db;
+  --color-testimoni-button: #1F2937;
+  --color-testimoni-star: #fdf193;
+  --color-footer: #FFFFFF;
+  --color-footer-title: #536878;
+  --color-footer-text: #919191;
+  --color-footer-divider: #53687850;
+}
+
+/* Variabel warna untuk mode DARK */
+:root.dark {
+  --color-primary: #6082B6; /* Biru lebih terang */
+  --color-background: #1F2937; /* Latar belakang gelap */
+  --color-text: #FFFFFF; /* Teks utama terang */
+  --color-text2: #E5E7EB; /* Teks sekunder lebih terang */
+  
+  --color-navbar: #1E293B; /* Navbar lebih gelap */
+  --color-navbar-title: #FFFFFF;
+  --color-navbar-text: #E5E7EB;
+  --color-navbar-button: #94A3B8;
+  
+  --color-home: #1E293B;
+  --color-home-title: #FFFFFF;
+  --color-home-text: #94A3B8;
+  --color-home-button: #3B82F6;
+  
+  --color-category: #1E293B;
+  --color-category-title: #FFFFFF;
+  --color-category-card: #334155;
+  
+  --color-product: #1F2937;
+  --color-product-title: #FFFFFF;
+  --color-product-rupiah: #3B82F6;
+  --color-product-stock: #94A3B8;
+  --color-product-button: #3B82F6;
+  --color-product-card: #334155;
+  
+  --color-brand: #1E293B;
+  --color-brand-start: #881729; /* Warna gradient lebih gelap */
+  --color-brand-middle: #881729;
+  --color-brand-end: #532B42;
+  --color-brand-button1: #E5E7EB;
+  --color-brand-button2: #F43F5E;
+  --color-brand-card: #334155;
+  --color-brand-text: #E5E7EB;
+  --color-brand-text2: #F43F5E;
+  
+  --color-artikel: #1F2937;
+  --color-artikel-card: #334155;
+  --color-artikel-title: #FFFFFF;
+  --color-artikel-text: #94A3B8;
+  --color-artikel-next: #3B82F6;
+  --color-artikel-button: #1E40AF;
+  
+  --color-banner: #1E3A8A;
+  --color-banner-title: #FFFFFF;
+  --color-banner-text1: #94A3B8;
+  --color-banner-text2: #64748B;
+  --color-banner-button: #3B82F6;
+  
+  --color-testimoni: #1F2937;
+  --color-testimoni-title: #FFFFFF;
+  --color-testimoni-text: #94A3B8;
+  --color-testimoni-review: #334155;
+  --color-testimoni-review-title: #E5E7EB;
+  --color-testimoni-review-text1: #64748B;
+  --color-testimoni-review-text2: #94A3B8;
+  --color-testimoni-button: #3B82F6;
+  --color-testimoni-star: #F5D547;
+  
+  --color-footer: #1E293B;
+  --color-footer-title: #E5E7EB;
+  --color-footer-text: #64748B;
+  --color-footer-divider: #475569;
+}
+
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  color: var(--color-text);
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--color-primary);
+}
+
+html {
+  font-family: 'Poppins', sans-serif;
+}
+
+.custom-radial-bg {
+  background: linear-gradient(90deg, rgb(52, 121, 223) -100%, #2A4365 25%);
 }
