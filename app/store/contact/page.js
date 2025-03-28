@@ -17,7 +17,6 @@ export default function ContactPage() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    // Simulasi submit (gantilah ini dengan logic submit ke API atau email handler)
     console.log("Form submitted:", formData);
     setSubmitted(true);
     setFormData({ name: "", email: "", subject: "", message: "" });
@@ -28,7 +27,7 @@ export default function ContactPage() {
       <h1 className="text-4xl font-bold text-center mb-8">Contact Us</h1>
       
       <p className="text-center text-lg text-gray-600 max-w-2xl mx-auto mb-10">
-        Have a question, feedback, or just want to say hi? We'd love to hear from you! 
+        Have a question, feedback, or just want to say hi? We&apos;d love to hear from you! 
         Fill out the form below or reach out to us directly.
       </p>
 

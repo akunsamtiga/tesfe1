@@ -1,4 +1,3 @@
-// /app/about/page.jsx atau /pages/about.js
 "use client";
 import Link from "next/link";
 
@@ -22,9 +21,9 @@ export default function AboutPage() {
         <p className="text-gray-600 leading-relaxed">
           Semua bermula dari sebuah ide sederhana:{" "}
           <em>
-            "Bagaimana jika kami bisa menghadirkan produk terbaik langsung ke
+            &quot;Bagaimana jika kami bisa menghadirkan produk terbaik langsung ke
             tangan pelanggan, tanpa proses rumit dan harga yang melambung
-            tinggi?"
+            tinggi?&quot;
           </em>{" "}
           <br />
           <br />
@@ -91,7 +90,7 @@ export default function AboutPage() {
               📞 Dukungan 24/7
             </h3>
             <p className="text-gray-600">
-              Tim kami selalu siap membantu menjawab pertanyaan Anda kapan pun.
+              Tim kami selalu siap membantu menjawab pertanyaan Anda kapan pun.&apos;
             </p>
           </div>
         </div>
