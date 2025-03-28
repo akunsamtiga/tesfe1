@@ -20,7 +20,10 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-icons": "^5.5.0",
-    "react-social-icons": "^6.22.0"
+    "react-responsive-carousel": "^3.2.23",
+    "react-social-icons": "^6.22.0",
+    "react-toastify": "^11.0.5",
+    "recharts": "^2.15.1"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
